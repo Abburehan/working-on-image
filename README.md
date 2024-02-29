@@ -22,7 +22,7 @@ Developed By : ABBU REHAN
 Register Number : 212223240165
 
 ## Program :
-
+```
 import cv2
 import numpy as np
 username = "ABBU REHAN"
@@ -38,7 +38,7 @@ cv2.imwrite(f"{username}_gray.jpg", gray)
 cv2.imwrite(f"{username}_hsv.jpg", hsv)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 ## Output :
 ![ws 1 1](https://github.com/Abburehan/working-on-image/assets/138849336/3aab8065-91a7-49d9-b4d7-7954da731d35)
 
